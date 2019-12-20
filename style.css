@@ -1,0 +1,57 @@
+body,html {height:100%;
+           width:100%}
+body{padding:0 1% 1% 1%}
+.bodyp {text-align:center;
+       margin: 0 0 2px 0}
+.master {position: relative;
+	    width:100%;
+	    height: 100%;
+	    background-color:#29a329;
+        border:solid 5px #1f7a1f;
+        }
+.first{} 
+.navli {position:absolute;	   
+       color:#fff;
+       font-size:50px;
+       z-index: 5;
+       left:2%;
+       top:6%}
+.navli li {display:inline-block;
+          margin-right:7px}
+.isari {position: absolute;
+	    color:#fff;
+        right:3%;
+        top:5%;
+        width:70%;
+        height:80%;
+        z-index: 4}
+.second {position:absolute;
+         width:42%;
+         height:60%;
+         bottom:0%;
+         left:0%;
+         z-index:10;
+         background-color:#fff}
+.green:hover{background-color:rgba(26, 146, 46, 0.4);
+             }
+.green {position:absolute;
+        width:50%;
+        height:50%;
+        background-color:#155115;
+        top:23%;
+        left:21%}
+.text {position:absolute;
+	   top:25%;
+	   left:20%;
+	   color:#e6e600;
+       font-size:90px;
+       transform: rotate(50deg);
+       }
+.whitetext {position:absolute;
+           bottom:2%;
+           right:10%;
+           color:green;}
+.mastertext {position:absolute;
+             bottom:1%;
+             right:1%;
+             color:#40ff22;}
